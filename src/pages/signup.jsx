@@ -29,7 +29,7 @@ function Signup(props) {
                     <input type="text" className="w-52 border-black p-1 bg-transparent border rounded-md" placeholder="username" onChange={handleUinput} />
                     <input type="text" className="w-52 border-black p-1 bg-transparent border rounded-md" placeholder="password" onChange={handlePinput}/>
                     <input type="text" className="w-52 border-black p-1 bg-transparent border rounded-md" placeholder="confirm password" />
-                    <button className="bg-[#FCA201] w-24 p-1 rounded-md"> signup</button>
+                    <button className="bg-[#FCA201] w-24 p-1 rounded-md" onClick={addUser}> signup</button>
                     <p>Already have an account?<Link to="/" className="underline">login</Link> </p>
                 </div>
             </div>
